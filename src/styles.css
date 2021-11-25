@@ -1,4 +1,9 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+@font-face {
+  font-family: "DINProBold";
+  src: url(./DINProBold.otf) format("opentype");
+}
+
+body,
+* {
+  font-family: "DINProBold", sans-serif;
 }

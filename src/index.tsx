@@ -1,4 +1,5 @@
 import { render } from "react-dom";
+import "./styles.css";
 
 import App from "./App";
 
