@@ -338,7 +338,7 @@ const RichTextExample = () => {
           autoFocus
           onKeyDown={(event) => {
             for (const hotkey in HOTKEYS) {
-              if (isHotkey(hotkey)(event as any)) {
+              if (isHotkey(hotkey)(event)) {
                 event.preventDefault();
                 const mark = HOTKEYS[hotkey];
                 toggleMark(editor, mark);
