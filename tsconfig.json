@@ -15,6 +15,11 @@
             "dom",
             "es2018"
         ],
-        "jsx": "react-jsx"
+        "jsx": "react-jsx",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true
     }
 }
